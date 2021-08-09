@@ -14,7 +14,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "www",
+            "outputPath": "prod",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -171,6 +171,7 @@
     }
   },
   "cli": {
+    "analytics": "b8ef2f0d-e4be-4fcc-ba12-d2708cd6e553",
     "defaultCollection": "@ionic/angular-toolkit"
   },
   "schematics": {
